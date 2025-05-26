@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_start_scanning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ATTENDANCE IN/OUT" />
+
+    <Button
+        android:id="@+id/button_start_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Face"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
